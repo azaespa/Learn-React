@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.feed-post {
+    margin: 10px 0 10px 0;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+
+.person-info {
+    display: flex;
+    gap: 10px;
+}
+
+.text-info h2 {
+    font-size: 20px;
+}
+
+.text-info p {
+    font-size: 14px;
+}
+
+.options {
+    margin-left: 50px;
+    height: 30px;
+    color: rgb(61, 61, 61);
+}
+
+img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.post-info {
+    padding: 10px 0 10px 0;
+}
